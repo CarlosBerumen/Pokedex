@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323", monospace;
+}
+
+.divheader {
+  text-align: center;
+}
+
+.h1 {
+  width: 300px;
+  height: 100px;
+}
+
+.divbuscarpokemon {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.divisor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divimagen {
+  text-align: center;
+  width: 40%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.divdatos {
+  display: inline-block;
+  width: 40%;
+  align-self: center;
+  text-align: center;
+  background-color: rgb(204, 0, 0);
+  border: 3px solid rgb(204, 0, 0);
+}
+
+.divnombre {
+  position: relative;
+  left: 25%;
+
+  width: 300px;
+  height: 100px;
+  background-color: rgb(179, 161, 37);
+  border: 3px solid rgb(59, 76, 202);
+  margin-top: 2%;
+  border-radius: 5px;
+}
+
+.divtipo {
+  border: 1px solid white;
+  position: relative;
+  left: 25%;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(179, 161, 37);
+  border: 3px solid rgb(59, 76, 202);
+  margin-top: 2%;
+  border-radius: 5px;
+}
+
+.divmovimientos {
+  position: relative;
+  left: 25%;
+  border: 1px solid rgb(255, 255, 255);
+  width: 300px;
+  height: 100px;
+  background-color: rgb(179, 161, 37);
+  border: 3px solid rgb(59, 76, 202);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
+.divestadistica {
+  position: relative;
+  left: 25%;
+  border: 1px solid rgb(255, 255, 255);
+  width: 300px;
+  height: 100px;
+  background-color: rgb(179, 161, 37);
+  border: 3px solid rgb(59, 76, 202);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid rgb(204, 0, 0);
+  width: 400px;
+  height: 50px;
+  background-color: transparent;
+}
+
+button {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(64, 136, 97);
+  color: white;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+}
+
+.uno,
+.dos,
+.tres {
+  display: block;
+}
+p {
+  display: inline-block;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .divisor {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .divimagen {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    height: 70%;
+  }
+
+  .divdatos {
+    width: 100%;
+  }
+
+  .divnombre,
+  .divtipo,
+  .divmovimientos,
+  .divestadistica {
+    height: 80px;
+  }
+}

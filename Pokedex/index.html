@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="divheader">
+      <header><img class="h1" src="./assets/img/logopokemon.png" /></header>
+    </div>
+
+    <section>
+      <div class="divsection">
+        <div class="divbuscarpokemon">
+          <input
+            type="text"
+            placeholder="¿WHAT POKÉMON ARE YOU INTERESTED IN?"
+            id="pokeName"
+            name="pokeName"
+          />
+          <button onclick="fetchPokemon()">SEARCH</button>
+        </div>
+
+        <div class="divisor">
+          <div class="divimagen">
+            <img
+              src="./assets/img/pokeballpng.png"
+              alt="pokeball"
+              id="pokeImg"
+            />
+          </div>
+
+          <div class="divdatos">
+            <div class="divnombre">
+              <label>NAME OF THE POKÉMON</label>
+              <p id="nombre"></p>
+            </div>
+            <div class="divtipo">
+              <label>TYPE OF POKÉMON</label>
+              <p id="tipo"></p>
+            </div>
+
+            <div class="divmovimientos">
+              <label>TYPE OF MOVEMENT</label>
+              <div class="mov1">
+                <p>The first movement is:</p>
+                <p id="mov1"></p>
+              </div>
+              <div class="mov2">
+                <p>The second movement is:</p>
+                <p id="mov2"></p>
+              </div>
+              <div class="mov3">
+                <p>The third movement is:</p>
+                <p id="mov3"></p>
+              </div>
+            </div>
+
+            <div class="divestadistica">
+              <label>STATISTICS</label>
+              <div class="uno">
+                <p>The HP of the Pokémon is:</p>
+                <p id="hp"></p>
+              </div>
+              <div class="dos">
+                <p>The Attack of the Pokémon is:</p>
+                <p id="ataque"></p>
+              </div>
+              <div class="tres">
+                <p>The Defense of the Pokémon is:</p>
+                <p id="defensa"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
