@@ -8,9 +8,9 @@ Práctica JS  Link: https://pokedex-launchx.netlify.app/
 
 -Diseño con CSS.
 
--Input de entrada, donde se meta el nombre del pokemón a buscar.
+-Input de entrada, donde se ingresa el nombre del pokemón a buscar.
 
--Input consulta a PokeAPI.
+-Input de consulta a PokeAPI.
 
 -No Responsive.
 
